@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Cpu, Database, MessageCircle, Gamepad2, Users, BookOpen } from "lucide-react";
+import { Cpu, Database, MessageCircle, Gamepad2, Users, BookOpen, ExternalLink } from "lucide-react";
 
 export const TechnicalApproach = () => {
   return (
@@ -93,6 +93,17 @@ export const TechnicalApproach = () => {
                     Partnership with Professor David Faulkner (Co-founder SAID Business School, Oxford MBA Director) 
                     for pedagogical framework development.
                   </p>
+                  <div className="mt-2 flex items-center gap-2">
+                    <span className="text-xs text-muted-foreground">Example Case Study:</span>
+                    <a 
+                      href="https://www.eduguide.co/case-studies/carbon-dioxide.php" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="text-academic-green hover:opacity-80 transition-opacity"
+                    >
+                      <ExternalLink className="w-3 h-3" />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
