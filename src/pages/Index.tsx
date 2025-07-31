@@ -25,7 +25,7 @@ const Index = () => {
         <GroupPhoto 
           imageUrl="/lovable-uploads/8f6d384f-f720-459c-af6f-123da1a43cc9.png"
           teamName=""
-          description="A dynamic team of AI leaders passionate about transforming the international education landscape through cutting-edge technology and human-centered design. United by our vision to democratize quality education consulting and eliminate bias in student guidance."
+          description=""
         />
       </div>
 
