@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Brain, Target, Users, Zap, MessageSquare, BarChart3 } from "lucide-react";
+import { Brain, Target, Users, Zap, MessageSquare, BarChart3, ExternalLink } from "lucide-react";
 
 export const ProjectObjectives = () => {
   return (
@@ -116,16 +116,22 @@ export const ProjectObjectives = () => {
             <div className="text-sm text-muted-foreground">Cost Reduction</div>
           </div>
           <div className="text-center">
-            <a href="https://www.eduguide.co/kyo-report/samridhi-srivastava/2085/" target="_blank" rel="noopener noreferrer" className="block hover:opacity-80 transition-opacity">
-              <div className="text-2xl font-bold text-academic-orange">Instant</div>
-              <div className="text-sm text-muted-foreground underline">Roadmap Generation</div>
-            </a>
+            <div className="text-2xl font-bold text-academic-orange">Instant</div>
+            <div className="text-sm text-muted-foreground flex items-center justify-center gap-2">
+              Roadmap Generation
+              <a href="https://www.eduguide.co/kyo-report/samridhi-srivastava/2085/" target="_blank" rel="noopener noreferrer" className="text-academic-orange hover:opacity-80 transition-opacity">
+                <ExternalLink className="w-4 h-4" />
+              </a>
+            </div>
           </div>
           <div className="text-center">
-            <a href="https://www.eduguide.co/dishita-roadmap.html" target="_blank" rel="noopener noreferrer" className="block hover:opacity-80 transition-opacity">
-              <div className="text-2xl font-bold text-academic-purple">Dynamic</div>
-              <div className="text-sm text-muted-foreground underline">Rerouting Enabled Roadmap</div>
-            </a>
+            <div className="text-2xl font-bold text-academic-purple">Dynamic</div>
+            <div className="text-sm text-muted-foreground flex items-center justify-center gap-2">
+              Rerouting Enabled Roadmap
+              <a href="https://www.eduguide.co/dishita-roadmap.html" target="_blank" rel="noopener noreferrer" className="text-academic-purple hover:opacity-80 transition-opacity">
+                <ExternalLink className="w-4 h-4" />
+              </a>
+            </div>
           </div>
         </div>
       </Card>
