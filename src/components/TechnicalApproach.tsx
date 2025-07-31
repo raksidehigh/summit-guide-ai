@@ -129,6 +129,17 @@ export const TechnicalApproach = () => {
                     Multi-source data strategy: Student ambassador network, web scraping with human verification, 
                     CRM integration, and incentivized data contribution programs.
                   </p>
+                  <div className="mt-2">
+                    <a 
+                      href="https://www.eduguide.co/student-data-collection.php" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
+                    >
+                      <ExternalLink className="w-3 h-3" />
+                      Data Collection Portal
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
