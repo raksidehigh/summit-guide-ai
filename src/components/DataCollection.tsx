@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Users, Database, Search, Target } from "lucide-react";
+import { Users, Database, Search, Target, ExternalLink } from "lucide-react";
 
 interface DataType {
   icon: React.ReactNode;
@@ -82,9 +82,10 @@ export const DataCollection = () => {
                         href="https://www.eduguide.co/ambassador-dashboard/yBWG-AvkRrwxx1Sxq3lMOCimLCFQJTjfJhQtrhRQCT4" 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="text-xs text-primary hover:underline"
+                        className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
                       >
-                        → Access Ambassador Dashboard
+                        <ExternalLink className="w-3 h-3" />
+                        Sample Profile
                       </a>
                     </div>
                   )}
