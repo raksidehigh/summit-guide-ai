@@ -116,12 +116,16 @@ export const ProjectObjectives = () => {
             <div className="text-sm text-muted-foreground">Cost Reduction</div>
           </div>
           <div className="text-center">
-            <div className="text-2xl font-bold text-academic-orange">3x</div>
-            <div className="text-sm text-muted-foreground">Engagement Increase</div>
+            <a href="https://www.eduguide.co/kyo-report/samridhi-srivastava/2085/" target="_blank" rel="noopener noreferrer" className="block hover:opacity-80 transition-opacity">
+              <div className="text-2xl font-bold text-academic-orange">Instant</div>
+              <div className="text-sm text-muted-foreground underline">Roadmap Generation</div>
+            </a>
           </div>
           <div className="text-center">
-            <div className="text-2xl font-bold text-academic-purple">50%</div>
-            <div className="text-sm text-muted-foreground">Time Efficiency</div>
+            <a href="https://www.eduguide.co/dishita-roadmap.html" target="_blank" rel="noopener noreferrer" className="block hover:opacity-80 transition-opacity">
+              <div className="text-2xl font-bold text-academic-purple">Dynamic</div>
+              <div className="text-sm text-muted-foreground underline">Rerouting Enabled Roadmap</div>
+            </a>
           </div>
         </div>
       </Card>
