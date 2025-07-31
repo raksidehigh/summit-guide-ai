@@ -12,10 +12,10 @@ export const ProjectObjectives = () => {
             AI-Powered Innovation
           </Badge>
           <h3 className="text-3xl font-bold text-primary mb-4">
-            Hyper-Personalization & Decommoditization of International Higher Education Choices using AI
+            Hyper-Personalisation & Decommoditisation of International Higher Education Choices using AI
           </h3>
           <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-            Transforming the international education consulting landscape through AI-driven personalization, 
+            Transforming the international education consulting landscape through AI-driven personalisation, 
             eliminating commission bias, and making quality guidance accessible to all students.
           </p>
         </div>
@@ -30,8 +30,8 @@ export const ProjectObjectives = () => {
         <div className="bg-destructive/5 p-4 rounded-lg mb-4">
           <p className="text-muted-foreground leading-relaxed">
             The international higher education consulting industry is dominated by commission-driven middlemen who 
-            prioritize university partnerships over student welfare. Traditional counselors have sales targets, 
-            while premium personalized services cost $6,000-$75,000, making quality guidance inaccessible to most students.
+            prioritise university partnerships over student welfare. Traditional counselors have sales targets, 
+            while premium personalised services cost $6,000-$75,000, making quality guidance inaccessible to most students.
           </p>
         </div>
         
@@ -62,14 +62,14 @@ export const ProjectObjectives = () => {
           {[
             {
               icon: <Users className="w-6 h-6" />,
-              title: "Hyper-Personalized Matching",
+              title: "Hyper-Personalised Matching",
               description: "AI-driven student profiling beyond grades and scores to understand personality, preferences, and aspirations",
               color: "academic-blue"
             },
             {
               icon: <Zap className="w-6 h-6" />,
               title: "Predictive Analytics",
-              description: "ML models to predict admission probabilities and optimize application strategies",
+              description: "ML models to predict admission probabilities and optimise application strategies",
               color: "academic-green"
             },
             {
@@ -81,7 +81,7 @@ export const ProjectObjectives = () => {
             {
               icon: <BarChart3 className="w-6 h-6" />,
               title: "Accessible Premium Service",
-              description: "Democratize high-quality consulting through AI automation and efficiency. Using university, students and professors",
+              description: "Democratise high-quality consulting through AI automation and efficiency. Using university, students and professors",
               color: "academic-purple"
             }
           ].map((objective, index) => (

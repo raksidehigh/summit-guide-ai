@@ -14,7 +14,7 @@ const flowSteps: FlowStep[] = [
   {
     id: "1",
     title: "Concept Building & Experimentation",
-    description: "Maximize engagement through gamification and Socratic questioning models",
+    description: "Maximise engagement through gamification and Socratic questioning models",
     phase: "Phase 1",
     timeline: "June-Aug 2025",
     color: "academic-blue"

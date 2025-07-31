@@ -21,7 +21,7 @@ export const TechnicalApproach = () => {
             </div>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>• Vector database for university/course information</li>
-              <li>• Semantic search for personalized recommendations</li>
+              <li>• Semantic search for personalised recommendations</li>
               <li>• Real-time knowledge base updates</li>
               <li>• Context-aware response generation</li>
             </ul>
@@ -36,7 +36,7 @@ export const TechnicalApproach = () => {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>• Admission probability prediction</li>
               <li>• Student-university compatibility scoring</li>
-              <li>• Application timeline optimization</li>
+              <li>• Application timeline optimisation</li>
               <li>• Success rate forecasting</li>
             </ul>
           </div>
@@ -121,7 +121,7 @@ export const TechnicalApproach = () => {
                 </h4>
                 <p className="text-muted-foreground mb-3">
                   Acquiring sufficient accurate data to build robust ML models for admission prediction 
-                  and personalized recommendations.
+                  and personalised recommendations.
                 </p>
                 <div className="bg-background p-3 rounded border">
                   <strong className="text-sm">Solution:</strong>

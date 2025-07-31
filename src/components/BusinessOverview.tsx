@@ -53,7 +53,7 @@ export const BusinessOverview = () => {
             <div className="space-y-2">
               {[
                 "Profile Evaluation & Assessment",
-                "Personalized Profile Building Roadmap", 
+                "Personalised Profile Building Roadmap", 
                 "Application Strategy & Guidance",
                 "University Enrollment Assistance",
                 "Mentorship from Academic Experts"
@@ -74,14 +74,14 @@ export const BusinessOverview = () => {
         <div className="grid md:grid-cols-3 gap-4">
           <div className="bg-destructive/5 p-4 rounded-lg">
             <h5 className="font-semibold text-foreground mb-2">Commission-Driven Bias</h5>
-            <p className="text-sm text-muted-foreground">Middlemen prioritize university commissions over student needs</p>
+            <p className="text-sm text-muted-foreground">Middlemen prioritise university commissions over student needs</p>
           </div>
           <div className="bg-destructive/5 p-4 rounded-lg">
             <h5 className="font-semibold text-foreground mb-2">Accessibility Gap</h5>
             <p className="text-sm text-muted-foreground">Premium consulting costs $6K-$75K, excluding most students</p>
           </div>
           <div className="bg-destructive/5 p-4 rounded-lg">
-            <h5 className="font-semibold text-foreground mb-2">Lack of Personalization</h5>
+            <h5 className="font-semibold text-foreground mb-2">Lack of Personalisation</h5>
             <p className="text-sm text-muted-foreground">Generic advice ignoring individual preferences and personality</p>
           </div>
         </div>
