@@ -76,6 +76,18 @@ export const DataCollection = () => {
                     </Badge>
                   </div>
                   <p className="text-sm text-muted-foreground mb-3">{dataType.description}</p>
+                  {dataType.title === "Historical Student Profiles" && (
+                    <div className="mb-3">
+                      <a 
+                        href="https://www.eduguide.co/ambassador-dashboard/yBWG-AvkRrwxx1Sxq3lMOCimLCFQJTjfJhQtrhRQCT4" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-xs text-primary hover:underline"
+                      >
+                        → Access Ambassador Dashboard
+                      </a>
+                    </div>
+                  )}
                   <div className="bg-muted/50 p-2 rounded text-xs">
                     <strong>Method:</strong> {dataType.method}
                   </div>
