@@ -11,7 +11,11 @@ export const BusinessOverview = () => {
             <Globe className="w-8 h-8" />
           </div>
           <div>
-            <h3 className="text-2xl font-bold text-primary mb-2">EduGuide.co</h3>
+            <h3 className="text-2xl font-bold text-primary mb-2">
+              <a href="https://www.eduguide.co" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+                EduGuide.co
+              </a>
+            </h3>
             <Badge variant="outline" className="border-academic-green text-academic-green mb-3">
               International Higher Education Consulting
             </Badge>

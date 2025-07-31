@@ -20,14 +20,6 @@ const Index = () => {
         />
       </div>
 
-      {/* Team Photo */}
-      <div className="container mx-auto px-4 py-6">
-        <GroupPhoto 
-          imageUrl="/lovable-uploads/8f6d384f-f720-459c-af6f-123da1a43cc9.png"
-          teamName="EduGenie Innovation Squad"
-          description="A dynamic team of AI leaders passionate about transforming the international education landscape through cutting-edge technology and human-centered design. United by our vision to democratize quality education consulting and eliminate bias in student guidance."
-        />
-      </div>
 
       {/* Main Content Sections */}
       <div className="container mx-auto px-4 space-y-12 pb-16">

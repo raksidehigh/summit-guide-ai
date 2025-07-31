@@ -45,7 +45,7 @@ export const ProjectObjectives = () => {
             <div className="text-sm text-muted-foreground">Premium consulting costs</div>
           </div>
           <div className="text-center p-4 border rounded-lg">
-            <div className="text-2xl font-bold text-destructive">70%</div>
+            <div className="text-2xl font-bold text-destructive">Very High</div>
             <div className="text-sm text-muted-foreground">Generic advice prevalence</div>
           </div>
         </div>
