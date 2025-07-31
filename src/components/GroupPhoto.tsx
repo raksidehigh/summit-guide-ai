@@ -16,10 +16,12 @@ export const GroupPhoto = ({ imageUrl, teamName, description }: GroupPhotoProps)
           className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
         />
       </div>
-      <div className="p-6 bg-gradient-to-r from-primary/5 to-academic-green/5">
-        <h3 className="text-2xl font-bold text-primary mb-2">{teamName}</h3>
-        <p className="text-muted-foreground leading-relaxed">{description}</p>
-      </div>
+      {teamName || description ? (
+        <div className="p-6 bg-gradient-to-r from-primary/5 to-academic-green/5">
+          {teamName && <h3 className="text-2xl font-bold text-primary mb-2">{teamName}</h3>}
+          {description && <p className="text-muted-foreground leading-relaxed">{description}</p>}
+        </div>
+      ) : null}
     </Card>
   );
 };

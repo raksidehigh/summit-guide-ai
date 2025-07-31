@@ -81,7 +81,7 @@ export const ProjectObjectives = () => {
             {
               icon: <BarChart3 className="w-6 h-6" />,
               title: "Accessible Premium Service",
-              description: "Democratize high-quality consulting through AI automation and efficiency",
+              description: "Democratize high-quality consulting through AI automation and efficiency. Using university, students and professors",
               color: "academic-purple"
             }
           ].map((objective, index) => (
