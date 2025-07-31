@@ -12,7 +12,7 @@ const Index = () => {
       {/* Header */}
       <div className="container mx-auto px-4 py-8">
         <PresentationHeader 
-          title="EduGenie: AI-Powered Education Pathfinder"
+          title="AI-Powered Education Pathfinder"
           subtitle="Revolutionizing International Higher Education through Intelligent Personalization"
           institution="Indian Institute of Management Calcutta"
           program="Advanced Programme in AI for Leaders (APAL01)"
