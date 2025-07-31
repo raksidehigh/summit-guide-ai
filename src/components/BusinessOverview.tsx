@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Globe, Users, Target, Award, TrendingUp } from "lucide-react";
+import { Globe, Users, Target, Award, TrendingUp, ExternalLink } from "lucide-react";
 
 export const BusinessOverview = () => {
   return (
@@ -11,9 +11,10 @@ export const BusinessOverview = () => {
             <Globe className="w-8 h-8" />
           </div>
           <div>
-            <h3 className="text-2xl font-bold text-primary mb-2">
-              <a href="https://www.eduguide.co" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+            <h3 className="text-2xl font-bold text-primary mb-2 flex items-center gap-2">
+              <a href="https://www.eduguide.co" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity flex items-center gap-2">
                 EduGuide.co
+                <ExternalLink className="w-5 h-5" />
               </a>
             </h3>
             <Badge variant="outline" className="border-academic-green text-academic-green mb-3">
