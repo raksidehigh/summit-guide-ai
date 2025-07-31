@@ -67,6 +67,17 @@ export const TechnicalApproach = () => {
                     Gamified profiling process with dating app-like interface for engaging data collection. 
                     Multi-dimensional personality assessment integrated seamlessly into user experience.
                   </p>
+                  <div className="mt-2">
+                    <a 
+                      href="https://www.eduguide.co/gamified-visuals/gamified-visuals.html" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
+                    >
+                      <ExternalLink className="w-3 h-3" />
+                      Gamified Interface Demo
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
